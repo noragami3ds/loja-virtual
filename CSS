@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: #fa7f72
+    
+}
+
+#logo{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.nav-list{
+    display: flex;
+    
+}
+.nav-list a{
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    
+}
+
+.nav-list a:hover{
+    border-bottom: 2px solid black;
+}
+
+#zap{
+    color: black;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+
+
+
+.search-box{
+    position: absolute;top: 20%; left: 50%; transform: translate(-50%,-50%);
+    height: 40px;
+    background: rgb(247, 245, 242);
+    padding: 8px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s ease;
+
+    
+}
+
+
+.search-btn{
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1bc296;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover > .search-text{
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.catego{
+    display: flex   ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 11%;
+    text-align: center;
+}
+
+
+.logot{
+    padding-top: 5rem;
+    margin-left: 11rem;
+}
+
+.catego a{
+    border: 2px solid rgb(247, 245, 242);
+    width: 150px;
+    height: 150px;
+    background: rgb(247,245,242);
+    border-radius: 50px;
+    box-shadow: 5px 1px 5px rgb(207, 190, 190);
+    color: black;
+}
+
+.catego img{
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.boxi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+
+.boxi2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+
+.boxi3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+.boxi4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+.boxi5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+.boxi6{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+
+.boxi7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+.boxi8{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    
+}
+.boxi9{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 2%;
+    margin-bottom: 11rem;
+    
+}
+
+
+
+.box{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+.boxx{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+
+.boxx1{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.boxx2{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.boxx3{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.boxx4{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.boxx5{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.boxx6{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+
+.boxx7{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+
+.img{
+    background-image: url(img/sushi-vegano-2.jpeg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+     
+    
+}
+
+.description{
+    font-size: 12px;
+    color: #808080
+}
+
+.valor{
+    color: #1bc296;
+    align-items: start;
+    text-align: start;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.plus{
+    position: absolute;top: 101%;left: 17%; transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #1bc296;
+}
+
+.pluss{
+    position: absolute;top: 101%;left: 489px; transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #1bc296;
+}
+
+.plusss{
+    position: absolute;top: 101%;left: 748px; transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #1bc296;
+}
+
+.plussss{
+    position: absolute;top: 101%;left: 1006px; transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #1bc296;
+}
+
+.plusssss{
+    position: absolute;top: 101%;left: 1265px; transform: translate(-50%, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #1bc296;
+}
+
+#tex{
+    margin-left: 4rem;
+}
+
+.img1{
+    background-image: url(img/WhatsApp\ Image\ 2023-09-01\ at\ 10.27.46\ PM.jpeg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+     
+    
+}
+
+#yaki{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#Especial{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#Bebidas{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#Combos{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.credi{
+    background-color: #fa7f72;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    background-color: #fa7f72;
+}
+
+
+.rede{
+    display: flex;
+    background-color: #fa7f72;
+    
+}
+
+.term{
+    display: flex;
+    padding: 39px 1%;
+    align-items: center;
+    color: black;
+}
+
+.contt{
+    padding-top: 30px;
+    margin-left: 25px;
+}
+
+section{
+    display: flex;
+    align-items: start;
+    text-align: start;
+    justify-content: space-around;
+}
