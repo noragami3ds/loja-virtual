@@ -1,2 +1,2 @@
-# loja-virtual
+# Loja-virtual
 Criação de uma loja estilo Delivery
